@@ -6,7 +6,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon mercadoLiebre.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
