@@ -1,0 +1,232 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.logo{
+    width: 50%;
+    padding: 10px;
+}
+
+.buscador{
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+header {
+    background-color: #EAC926;
+}
+header p{
+    text-align: center;
+}
+
+header nav {
+    display: none;
+}
+
+header nav ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li {
+    list-style-type: none;
+
+}
+
+header nav ul{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 42%;
+}
+
+header .buscador .input{
+    background-color: white;
+    border: 1px solid black;
+    color: #666;
+    width: max-content;
+}
+
+header .buscador .lupa{
+    background-color: white;
+    border: 1px solid black;
+    color: #666;
+    width: 20px;
+}
+
+header div.burger-menu i{
+    color: white;
+    background-color:#1259c3;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+header div.burger-menu {
+    text-align: center;
+}
+
+p{
+    font-style: 12px;
+}
+
+body main section h3{
+font-size: 24px;
+}
+
+
+footer main article i{
+    color: #1259c3;
+    font-size: 2em;
+    margin: 0px 0px 10px 0px;
+
+}
+footer main article{
+    text-align: center;
+}
+
+footer main article .copy{
+    color: grey;
+    font-size: 10px;
+}
+
+.banner-img{
+    width: 100vw;
+}
+
+main {
+    margin: 0 auto;
+    width: 90vw;
+}
+
+main section article{
+    margin-bottom: 10px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+.info-article{
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.precios{
+    width: 30%;
+
+}
+
+.descuentos{
+    width: 70%;
+}
+
+main section article div i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.desc-prod{
+    display: none;
+}
+
+#formulario-registro{
+    background-color: #ebebeb;
+}
+
+.formularios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+form div{
+    margin-bottom: 10px; 
+    border-radius: 5%;
+    width: 100%;
+}
+
+.text-field{
+    padding: 5px;
+}
+
+.selecciones{
+    display: flex;
+    flex-direction: column;
+}
+.botonForm{
+    width: 40%;
+}
+
+.botonSubmit{
+    background-color: green;
+    color: #FFF;
+}
+
+.botonReset{
+    background-color:red;
+    color: #FFF;
+}
+
+@media  (min-width: 361px){
+    .productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .desc-prod {
+        display: block;
+    }
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 45%;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between ;
+
+    }
+    header div.burger-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    main section article{
+        width: 22.5%;
+    } 
+    
+}
+
+
